@@ -1,0 +1,197 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background:#DAF7A6;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.bg-sky {
+	text-align: center;
+
+}
+	
+
+.container{
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.container>div{
+	margin: 20px auto;
+}
+
+.intro{
+	text-align: center;
+}
+
+.about-grid{
+	display: grid;
+	grid-template-columns:100%;
+}
+
+.fun-fact{
+	text-align:center;
+}
+
+.about-list{
+	list-style:inside;
+}
+
+@media(max-width: 480px){
+	.about-grid{
+		grid-template-columns: 100%;
+	}
+
+}
+
+.details{
+	text-align: center;
+	line-height: 2.5;
+}
+
+.email{
+	text-align: center;
+	line-height: 2.5;
+}
+
+.donation{
+	text-align: center;
+	line-height: 2.5;
+}
+
+.payment{
+	text-align: center;
+	line-height: 2.5;
+}
+
+.message{
+	text-align: center;
+	line-height: 2.5;
+}
+
+.box{
+	text-align: center;
+	line-height: 2.7;
+}
+
+
+.projects-heading{
+	text-align: center;
+}
+
+.project-grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.project-image-wrapper{
+	justify-self:center;
+	padding: 4%;
+	position: relative;
+}
+
+.project-image{
+	border-radius: 5px;
+	box-shadow: 0 4px 6px 0 rgba(34,60,80,0.16)
+	transion:all ease in-out .2s;
+}
+
+.project-image:hover{
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(43,60,80,0.16)
+}
+
+.project-image-wrapper:hover>h4{
+	visibility: visible;
+}
+
+.project-image-wrapper<h4{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	visibility: hidden;
+	z-index: 2;
+	transition: all ease-in-out;
+}
+
+@media (max-width: 650px){
+	.projects-grid{
+		grid-template-columns: 100%
+	}
+}
+
+.links-and-contact{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.links{
+	justify-self:center;
+}
+
+.links-list{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 650px){
+	.links-and-contact{
+		grid-template-columns: 100%;
+	}
+}
+
+.project-image{
+	border-radius: 5px;
+	box-shadow: 0 4px 6px 0 rgba(34,60 80,0.16);
+	transition:all ease in-out .2s;
+}
+
+.project-image:hover{
+	filter: brightness(.75);
+	 box-shadow: 0 8px 12px 0 rgba(34,60,80,0.16);
+}
+
+.project-image-wrapper:hover>h4{
+	visibility: visible;
+}
+
+.project-image-wrapper:>h4{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+visibility: hidden;
+z-index: 2;
+transition: all ease-in-out;
+}
+
+form input,text area{
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px: 
+}
+
+form input[type="submit"]{
+	width: 250px
+}
+
+.submit-button-wrapper{
+	margin: 250px;
+}
+
+.submit-button-wrapper{
+	margin: 240px 0;
+}
+
+hr{
+	border:0px;
+	height: 1px;
+	background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0))
+}
